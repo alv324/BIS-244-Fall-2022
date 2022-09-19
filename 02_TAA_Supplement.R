@@ -39,7 +39,7 @@ SNOHOMISH <- filter(COUNTIES, state=="Washington" &
                       county=="Snohomish")
 View(SNOHOMISH)
 
-# Set n to legth of data set
+# Set n to length of data set
 n <- length(SNOHOMISH$date)
 
 # Initialize new variable in data frame
